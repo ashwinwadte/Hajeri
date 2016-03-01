@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_for_students"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingTop="10dp"
+    android:showDividers="none"
+    android:textAlignment="center">
+    <!-- android:layout_marginLeft="30dp"
+    android:layout_marginRight="40dp"
+     -->
+
+    <TextView
+        android:id="@+id/tvRoll"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/my_circle"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="51"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+    <CheckedTextView
+        android:id="@+id/ctvName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="3"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:gravity="left|center_vertical"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:text="Name of student"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

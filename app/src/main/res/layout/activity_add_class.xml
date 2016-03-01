@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ashwin.hajeri.savedClassList.AddClass">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etStrength"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:hint="No. of students"
+                android:inputType="number"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/spYear"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/etStrength"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:prompt="@string/select_class_name"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spClassName"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/spYear"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:prompt="@string/select_class_name"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spClassType"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/spClassName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:prompt="@string/select_class_type"
+                android:spinnerMode="dialog" />
+
+            <Spinner
+                android:id="@+id/spDivision"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/spClassType"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:prompt="@string/select_division"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:id="@+id/tvSelectBatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/spClassBatch"
+                android:layout_below="@+id/spDivision"
+                android:layout_marginTop="10dp"
+                android:text="*Select Batch"
+                android:textColor="@color/fab_color_1"
+                android:textSize="13sp"
+                android:visibility="invisible" />
+
+
+            <Spinner
+                android:id="@+id/spClassBatch"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/tvSelectBatch"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:prompt="@string/select_batch"
+                android:spinnerMode="dialog"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/bSaveClass"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spClassBatch"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:elevation="2dp"
+                android:text="Save"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

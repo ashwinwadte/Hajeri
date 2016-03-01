@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ashwin.hajeri.attendance.AttendanceMain">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_addMoreStudents"
+        android:orderInCategory="4"
+        android:title="@string/action_addMoreStudents"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:orderInCategory="1"
+        android:title="Save"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_present"
+        android:icon="@drawable/ic_present"
+        android:orderInCategory="2"
+        android:title="Present/Absent"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_absent"
+        android:icon="@drawable/ic_absent"
+        android:orderInCategory="2"
+        android:title="Present/Absent"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_chooseDate"
+        android:icon="@drawable/ic_calender_with_month"
+        android:orderInCategory="3"
+        android:title="Date"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_deleteStudents"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="4"
+        android:title="Delete"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+</menu>

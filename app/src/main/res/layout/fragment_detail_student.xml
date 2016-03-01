@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_app">
+
+    <TextView
+        android:id="@+id/tvGRNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@+id/textView"
+        android:gravity="center"
+        android:text="131211"
+        android:textColor="@drawable/color_grno"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ctvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvGRNo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:singleLine="false"
+        android:text="Surname Firstname Middlename"
+        android:textColor="#ffffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ctvName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="35dp"
+        android:labelFor="@+id/tvRollNo"
+        android:text="Roll No.:"
+        android:textColor="@drawable/color_other_details"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvRollNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:gravity="center"
+        android:text="99"
+        android:textColor="#ffffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvDivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvRollNo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="Z"
+        android:textColor="#ffffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvDivision"
+        android:layout_toStartOf="@+id/tvDivision"
+        android:gravity="center"
+        android:labelFor="@+id/tvDivision"
+        android:text="Division:"
+        android:textColor="@drawable/color_other_details"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:labelFor="@+id/tvClassYear"
+        android:text="Class:"
+        android:textColor="@drawable/color_other_details"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvClassYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:gravity="center"
+        android:text="TY B. Tech (2015-16)"
+        android:textColor="#ffffffff"
+        android:textSize="25sp" />
+</RelativeLayout>

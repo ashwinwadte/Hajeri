@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Hajeri</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_addMoreStudents">Add students</string>
+
+    <string name="title_activity_roll_no_list">Roll No List</string>
+    <string name="title_activity_add_students">Add Students</string>
+    <string name="title_activity_class_list">Class List</string>
+    <string name="title_activity_students">Student Attendance</string>
+
+    <string name="select_division">Select Division</string>
+    <string name="select_year">Select Year</string>
+    <string name="select_class_name">Select Class</string>
+    <string name="select_class_type">Select Class Type</string>
+    <string name="select_batch">Select Batch</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail_class_list">Class Details</string>
+    <string name="title_activity_edit_class">Edit class</string>
+    <string name="title_activity_add_class">Add new class</string>
+    <string name="title_activity_attendence_main">Attendence</string>
+    <string name="title_activity_students_selection_dialog">Select students</string>
+    <string name="title_activity_delete_students_of_class">Select students to delete</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

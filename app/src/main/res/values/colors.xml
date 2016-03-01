@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="red_color">#ff0000</drawable>
+    <drawable name="white_color">#ffffff</drawable>
+    <drawable name="orange_color">#fbc02d</drawable>
+    <drawable name="color_purple">#ba68c8</drawable>
+    <drawable name="color_app">#00838f</drawable>
+    <drawable name="color_grno">#eeff41</drawable>
+    <drawable name="color_other_details">#b2ff59</drawable>
+
+
+    <color name="orange_color">#fbc02d</color>
+    <color name="color_purple">#ba68c8</color>
+    <color name="color_app">#00838f</color>
+    <color name="color_app_muted">#006064</color>
+    <color name="color_grno">#eeff41</color>
+    <color name="color_other_details">#b2ff59</color>
+
+    <!-- FAB COLORS-->
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8a80</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="fab_color_2_muted">#ba68c8</color>
+
+    <array name="circle_colors">
+        <item>#ef5350</item>
+        <item>#ba68c8</item>
+        <item>#ff8a65</item>
+        <item>#ffab40</item>
+
+        <item>#1e88e5</item>
+        <item>#fbc02d</item>
+        <item>#66bb6a</item>
+        <item>#4db6ac</item>
+
+        <item>#64dd17</item>
+        <item>#f57f17</item>
+        <item>#ab47bc</item>
+        <item>#ff9800</item>
+
+        <item>#e91e63</item>
+        <item>#ba68c8</item>
+        <item>#fbc02d</item>
+        <item>#00838f</item>
+    </array>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

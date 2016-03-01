@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashwin.hajeri.savedClassList.ClassListFragment">
+
+    <ListView
+        android:id="@+id/lvClassListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="-1dp"
+        android:padding="5dp" />
+
+    <ImageButton
+        android:id="@+id/bAddNewClassFragment"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/my_oval"
+        android:contentDescription="Add Class"
+        android:elevation="2dp"
+        android:src="@android:drawable/ic_input_add"
+        android:stateListAnimator="@animator/fab_anim"
+        android:tint="@android:color/white" />
+
+</RelativeLayout>

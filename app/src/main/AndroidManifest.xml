@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ashwin.hajeri" >
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".attendance.Attendance"
+            android:label="@string/title_activity_roll_no_list"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".AddStudents"
+            android:label="@string/title_activity_add_students" />
+        <activity
+            android:name=".savedClassList.ClassList"
+            android:label="@string/title_activity_class_list" />
+        <activity
+            android:name=".AndroidDatabaseManager"
+            android:label="DB Manager"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".studentMasterList.Students"
+            android:label="@string/title_activity_students" />
+        <activity
+            android:name=".savedClassList.DetailClassList"
+            android:label="@string/title_activity_detail_class_list" />
+        <activity
+            android:name=".savedClassList.EditClass"
+            android:label="@string/title_activity_edit_class" />
+        <activity
+            android:name=".savedClassList.AddClass"
+            android:label="@string/title_activity_add_class" />
+        <activity
+            android:name=".attendance.AttendanceMain"
+            android:label="@string/title_activity_attendence_main" />
+        <activity
+            android:name=".attendance.StudentsSelectionDialog"
+            android:label="@string/title_activity_students_selection_dialog" />
+        <activity
+            android:name=".attendance.DeleteStudentsOfClass"
+            android:label="@string/title_activity_delete_students_of_class" />
+        <activity android:name=".attendance.TotalAttendance" />
+        <activity android:name=".ImportCSV" />
+        <activity android:name=".FileBrowserActivity" />
+        <activity android:name=".FileExplore" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

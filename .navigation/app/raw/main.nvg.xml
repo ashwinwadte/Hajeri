@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.attendance.AttendanceMain"/>
+      <point      
+        x = "1768"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.AndroidDatabaseManager"/>
+      <point      
+        x = "500"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.studentMasterList.Students"/>
+      <point      
+        x = "1968"      
+        y = "2892"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.attendance.DeleteStudentsOfClass"/>
+      <point      
+        x = "600"      
+        y = "2960"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.savedClassList.ClassList"/>
+      <point      
+        x = "544"      
+        y = "36"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.attendance.Attendance"/>
+      <point      
+        x = "448"      
+        y = "1412"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.savedClassList.AddClass"/>
+      <point      
+        x = "650"      
+        y = "3010"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.savedClassList.EditClass"/>
+      <point      
+        x = "700"      
+        y = "3060"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.savedClassList.DetailClassList"/>
+      <point      
+        x = "1768"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.AddStudents"/>
+      <point      
+        x = "750"      
+        y = "3110"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.MainActivity"/>
+      <point      
+        x = "800"      
+        y = "3160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.ashwin.hajeri.attendance.StudentsSelectionDialog"/>
+      <point      
+        x = "850"      
+        y = "3210"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
